@@ -1,5 +1,6 @@
-cookies="s%3AnjsRc6IoGTWFkJEBixS8g95_8KmzFLUW.rh6BTufzQUATa1qH2gV09W6SAJDTPkmnz49X%2BoTvk3Y"
+cookies="s:8uMuvFGVmuasIeqM4TPOWlzgMNdDQsFl.dlror4Lh5AfR/cA7tytOdevjH7WAhCztOnNh6Y6JLSQ"
 data=$1
+
 if [ ! -f "$data" ]; then
 	data="./default.json"
 	echo "Can't find file:$data, Using default.json";

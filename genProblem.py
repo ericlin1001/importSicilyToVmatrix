@@ -129,12 +129,13 @@ def main():
     title = prefix + meta["title"];
     # parse description
     desp = ""
-    desp = desp + "# Description\n" + meta["description"] + "\n";
-    desp = desp + "# Input\n" + meta["input"]+ "\n";
-    desp = desp + "# Output\n" + meta["output"]+ "\n";
-    desp = desp + "# Sample_Input\n```\n" + meta["sample_input"] + "\n```"+ "\n";
-    desp = desp + "# Sample_Ouput\n```\n" + meta["sample_output"] + "\n```"+ "\n";
-    desp = desp + "# Hint\n" + meta["hint"] + "\n";
+    desp = desp + "# " + meta["title"] + "\n\n";
+    desp = desp + "# Description\n" + meta["description"] + "\n\n";
+    desp = desp + "# Input\n" + meta["input"]+ "\n\n";
+    desp = desp + "# Output\n" + meta["output"]+ "\n\n";
+    desp = desp + "# Sample_Input\n```\n" + meta["sample_input"] + "\n```"+"\n\n";
+    desp = desp + "# Sample_Ouput\n```\n" + meta["sample_output"] + "\n```"+"\n\n";
+    desp = desp + "# Hint\n" + meta["hint"] + "\n\n";
     #desp = ast.literal_eval(desp);
     #desp = desp.decode('unicode_escape');
     # parse in/out

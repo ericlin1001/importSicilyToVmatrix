@@ -57,8 +57,8 @@ for i in `ls unzip/` ;do
 			fi
 		done
 		cd ../../../
-		echo "./genProblem.py \"$currentProblem\" \"$saveToCurrentProblem\"  \"From Sicily::$i::$j::\""
-		#./genProblem.py "$currentProblem" "$saveToCurrentProblem"  "From Sicily::$i::$j::"
+		#echo "./genProblem.py \"$currentProblem\" \"$saveToCurrentProblem\"  \"From Sicily::$i::$j::\""
+		./genProblem.py "$currentProblem" "$saveToCurrentProblem"  "From Sicily::$i::$j::"
 		#end processing one problem
 	done
 	#end processing a chapter***
