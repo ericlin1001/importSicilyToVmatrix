@@ -1,0 +1,8 @@
+A constructor
+Call class A's fun
+B constructor
+C constructor
+Call class C's fun
+C destructor
+B destructor
+A destructor

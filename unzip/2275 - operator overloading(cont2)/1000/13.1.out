@@ -1,0 +1,23 @@
+2 + 2/3 = 8/3
+2 - 2/3 = 4/3
+2 * 2/3 = 4/3
+2 / 2/3 = 3
+r2.intValue() is 0
+r2.doubleValue() is 0.666667
+r1.compareTo(r2) is 1
+r2.compareTo(r1) is -1
+r1.compareTo(r1) is 0
+r1.equals(r1) is 1
+r1.equals(r2) is 0
+
+3/2 + 1/4 = 7/4
+3/2 - 1/4 = 5/4
+3/2 * 1/4 = 3/8
+3/2 / 1/4 = 6
+r2.intValue() is 0
+r2.doubleValue() is 0.25
+r1.compareTo(r2) is 1
+r2.compareTo(r1) is -1
+r1.compareTo(r1) is 0
+r1.equals(r1) is 1
+r1.equals(r2) is 0

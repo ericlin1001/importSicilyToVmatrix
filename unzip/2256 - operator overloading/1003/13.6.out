@@ -1,0 +1,9 @@
+Please enter two strings
+x= 123 , y = 45678
+in f: 12x 45678 6
+45678
+s = ""
+s = "abc"
+"123" + "45678" = "12345678"
+exit: !23 123
+exit: !bc abc
